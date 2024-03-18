@@ -14,10 +14,14 @@
 #   value = module.eks_cluster.oidc
 # }
 
-# output "ca" {
-#   value = module.eks_cluster.certificate_authority
-# }
+output "certificate_authority" {
+  value = module.eks_cluster.certificate_authority
+}
 
-# output "enpoint" {
-#   value = module.eks_cluster.enpoint
-# }
+output "enpoint" {
+  value = module.eks_cluster.enpoint
+}
+
+output "cluster_name" {
+  value = module.eks_cluster.enpoint.cluster_name
+}

@@ -36,5 +36,9 @@ No resources.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_certificate_authority"></a> [certificate\_authority](#output\_certificate\_authority) | n/a |
+| <a name="output_cluster_name"></a> [cluster\_name](#output\_cluster\_name) | n/a |
+| <a name="output_enpoint"></a> [enpoint](#output\_enpoint) | n/a |
 <!-- END_TF_DOCS -->
